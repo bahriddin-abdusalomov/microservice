@@ -9,5 +9,6 @@ Bu microservice loyiha 4 ta proektdan tashkil topgan
 
 ## Accommodation database diogrammasi
 
-![image](https://github.com/bahriddin-abdusalomov/microservice/assets/123171397/093f148f-7b3f-4090-b6d3-dd6c3804bc73)
+![image](https://github.com/bahriddin-abdusalomov/microservice/assets/123171397/3979277e-543b-4078-8317-af3dc4cd7548)
+
 
