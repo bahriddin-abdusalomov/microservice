@@ -1,6 +1,6 @@
-﻿namespace Accommodation.Application.UseCases.Rooms.Handlers;
+﻿namespace Accommodation.Application.UseCases.Rooms.Hendlers;
 
-public class CreateRoomCommandHandler : AsyncRequestHandler<CreateRoomCommand>
+public class CreateRoomCommandHandler : IRequestHandler<CreateRoomCommand, int>
 {
     private readonly IApplicationDbContext _context;
 
@@ -9,17 +9,21 @@ public class CreateRoomCommandHandler : AsyncRequestHandler<CreateRoomCommand>
         _context = context;
     }
 
-    protected override async Task Handle(CreateRoomCommand request, CancellationToken cancellationToken)
+    public async Task<int> Handle(CreateRoomCommand request, CancellationToken cancellationToken)
     {
         Room room = new Room()
         {
             RoomNumber = request.RoomNumber,
             Status = request.Status,
-            RoomTypeId = request.RoomTypeId,
             HotelId = request.HotelId,
+            RoomTypeId = request.RoomTypeId,
+            CreatedDate = DateTime.UtcNow,
+            UpdatedDate = DateTime.UtcNow,
         };
 
-        await _context.Rooms.AddAsync(room);
-        await _context.SaveChangesAsync(cancellationToken);
+        await  _context.Rooms.AddAsync(room);
+        int result =  await _context.SaveChangesAsync();
+
+        return result;
     }
 }
