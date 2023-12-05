@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -17,6 +17,11 @@
   <ItemGroup>
     <ProjectReference Include="..\Accommodation.Application\Accommodation.Application.csproj" />
     <ProjectReference Include="..\Accommodation.Infrastructure\Accommodation.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\media\images\" />
+    <Folder Include="wwwroot\media\avatars\" />
   </ItemGroup>
 
 </Project>
