@@ -16,6 +16,8 @@ public class Booking : BaseEntity
     public Guest Guest { get; set; }
 
     public long RoomId { get; set; }    
-    public Room Room { get; set; }
-    #endregion}
+    public Room Room { get; set; } 
+    
+    #endregion
 }
+
