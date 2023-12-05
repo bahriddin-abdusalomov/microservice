@@ -5,7 +5,7 @@
   <img src="https://www.c-sharpcorner.com/article/microservice-using-asp-net-core/Images/Microservice%20Using%20ASP.NET%20Core.png" alt="Rasm Tavsifi">
 </p>
 
-Bu microservice loyiha 4 ta proektdan tashkil topgan 
+# Bu microservice 4 ta loyihadan tashkil topgan.
 
  - [Accommodation](https://github.com/bahriddin-abdusalomov/microservice/tree/main/src/Accommodation)
  - [Cadastre](https://github.com/bahriddin-abdusalomov/microservice/tree/main/src/Cadastre)
