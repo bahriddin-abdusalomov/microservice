@@ -2,7 +2,7 @@
 `.NET`, Microsoft tomonidan ishlab chiqilgan bir dasturlash platformasi va frameworkdir. `.NET` platformasida yaratilgan dasturlar `C#`, `F#`, `VB.NET`, va boshqa dasturlash tillarida yoziladi. `Microservices`, yoki `mikroservislar`, bir dasturni kichik xizmatlarga bo'lib ajratish va har bir xizmatni o'zini alohida o'zi boshqarish prinsiplariga asoslangan arxitektura modelidir.
 
 <p align="center">
-  <img src="[123171397/b215ca79-f922-46fb-bb8f-23c76ea43f5e](https://www.c-sharpcorner.com/article/microservice-using-asp-net-core/Images/Microservice%20Using%20ASP.NET%20Core.png)" alt="microservice">
+  <img src="https://www.c-sharpcorner.com/article/microservice-using-asp-net-core/Images/Microservice%20Using%20ASP.NET%20Core.png" alt="Rasm Tavsifi">
 </p>
 
 Bu microservice loyiha 4 ta proektdan tashkil topgan 
