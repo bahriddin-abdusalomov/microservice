@@ -10,4 +10,4 @@ public interface IApplicationDbContext
     public DbSet<Staff> Staffs { get; set; }
 
     public Task<int> SaveChangesAsync(CancellationToken collactionToken = default);
-}       
+}
