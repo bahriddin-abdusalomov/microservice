@@ -6,3 +6,4 @@ services:
     build:
       context: .
       dockerfile: src/Accommodation/Accommodation.Presentation/Dockerfile
+
