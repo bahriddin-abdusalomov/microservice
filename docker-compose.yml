@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  accommodation.presentation:
+    image: ${DOCKER_REGISTRY-}accommodationpresentation
+    build:
+      context: .
+      dockerfile: src/Accommodation/Accommodation.Presentation/Dockerfile

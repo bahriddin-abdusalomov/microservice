@@ -1,17 +1,4 @@
-﻿using Accommodation.Application.Abstractions;
-using Accommodation.Domain.Entities.Bookings;
-using Accommodation.Domain.Entities.Guests;
-using Accommodation.Domain.Entities.Hotels;
-using Accommodation.Domain.Entities.Rooms;
-using Accommodation.Domain.Entities.Staffs;
-using Accommodation.Infrastructure.Persistence.Configurations.Bookings;
-using Accommodation.Infrastructure.Persistence.Configurations.Guests;
-using Accommodation.Infrastructure.Persistence.Configurations.Hotels;
-using Accommodation.Infrastructure.Persistence.Configurations.Rooms;
-using Accommodation.Infrastructure.Persistence.Configurations.Staffs;
-using Microsoft.EntityFrameworkCore;
-
-namespace Accommodation.Infrastructure.Persistence.Data;
+﻿namespace Accommodation.Infrastructure.Persistence.Data;
 
 public class ApplicationDbContext : DbContext, IApplicationDbContext
 {

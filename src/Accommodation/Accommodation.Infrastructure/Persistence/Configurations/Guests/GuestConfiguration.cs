@@ -1,8 +1,4 @@
-﻿using Accommodation.Domain.Entities.Guests;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-
-namespace Accommodation.Infrastructure.Persistence.Configurations.Guests;
+﻿namespace Accommodation.Infrastructure.Persistence.Configurations.Guests;
 
 public class GuestConfiguration : IEntityTypeConfiguration<Guest>
 {

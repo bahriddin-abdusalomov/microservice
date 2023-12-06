@@ -1,8 +1,4 @@
-﻿using Accommodation.Domain.Entities.Hotels;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-
-namespace Accommodation.Infrastructure.Persistence.Configurations.Hotels;
+﻿namespace Accommodation.Infrastructure.Persistence.Configurations.Hotels;
 
 public class HotelConfigoration : IEntityTypeConfiguration<Hotel>
 {

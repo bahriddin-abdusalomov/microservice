@@ -1,7 +1,5 @@
-﻿using Accommodation.Application.UseCases.Rooms.Queries;
-using Accommodation.Domain.Exceptions.Rooms;
+﻿namespace Accommodation.Application.UseCases.Rooms.Handlers;
 
-namespace Accommodation.Application.UseCases.Rooms.Handlers;
 public class GetByIdRoomQueryHandler : IRequestHandler<GetByIdRoomQuery, Room>
 {
     private readonly IApplicationDbContext _context;

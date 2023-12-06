@@ -1,8 +1,4 @@
-﻿using Accommodation.Domain.Entities.Staffs;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-
-namespace Accommodation.Infrastructure.Persistence.Configurations.Staffs;
+﻿namespace Accommodation.Infrastructure.Persistence.Configurations.Staffs;
 
 public class StaffConfiguration : IEntityTypeConfiguration<Staff>
 {

@@ -7,43 +7,49 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E8BB8D03-1FE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cadastre", "Cadastre", "{02BF424B-2FFC-4EAD-9B8E-B2BB6ED47BF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastre.Presentation", "src\Cadastre\Cadastre.Presentation\Cadastre.Presentation.csproj", "{67288FD0-1D37-4316-B2D2-87E1957178D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastre.Presentation", "src\Cadastre\Cadastre.Presentation\Cadastre.Presentation.csproj", "{67288FD0-1D37-4316-B2D2-87E1957178D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastre.Application", "src\Cadastre\Cadastre.Application\Cadastre.Application.csproj", "{080310FF-B7F5-4518-95C6-CF729355229C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastre.Application", "src\Cadastre\Cadastre.Application\Cadastre.Application.csproj", "{080310FF-B7F5-4518-95C6-CF729355229C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastre.Domain", "src\Cadastre\Cadastre.Domain\Cadastre.Domain.csproj", "{05106EB6-2DE2-4D6B-B181-07A08587CB5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastre.Domain", "src\Cadastre\Cadastre.Domain\Cadastre.Domain.csproj", "{05106EB6-2DE2-4D6B-B181-07A08587CB5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastre.Infrastructure", "src\Cadastre\Cadastre.Infrastructure\Cadastre.Infrastructure.csproj", "{C46487C0-7DEC-436A-AD18-FA51E2E12364}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastre.Infrastructure", "src\Cadastre\Cadastre.Infrastructure\Cadastre.Infrastructure.csproj", "{C46487C0-7DEC-436A-AD18-FA51E2E12364}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Accommodation", "Accommodation", "{0037C558-986C-406D-94E2-C10724508BF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accommodation.Infrastructure", "src\Accommodation\Accommodation.Infrastructure\Accommodation.Infrastructure.csproj", "{703EB78A-6817-4299-8A69-E2FEA75090BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accommodation.Infrastructure", "src\Accommodation\Accommodation.Infrastructure\Accommodation.Infrastructure.csproj", "{703EB78A-6817-4299-8A69-E2FEA75090BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accommodation.Domain", "src\Accommodation\Accommodation.Domain\Accommodation.Domain.csproj", "{2025E7EE-DD36-4306-A768-34ED8219C8FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accommodation.Domain", "src\Accommodation\Accommodation.Domain\Accommodation.Domain.csproj", "{2025E7EE-DD36-4306-A768-34ED8219C8FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accommodation.Application", "src\Accommodation\Accommodation.Application\Accommodation.Application.csproj", "{CEBB0941-220D-4EA6-9287-D2DCA549E14E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accommodation.Application", "src\Accommodation\Accommodation.Application\Accommodation.Application.csproj", "{CEBB0941-220D-4EA6-9287-D2DCA549E14E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accommodation.Presentation", "src\Accommodation\Accommodation.Presentation\Accommodation.Presentation.csproj", "{02AE962B-6445-4315-9481-AAC3D8A15A90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accommodation.Presentation", "src\Accommodation\Accommodation.Presentation\Accommodation.Presentation.csproj", "{02AE962B-6445-4315-9481-AAC3D8A15A90}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hospital", "Hospital", "{A0C2211D-DFDE-4EC6-82F4-2A3C5760613E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Presentation", "src\Hospital\Hospital.Presentation\Hospital.Presentation.csproj", "{299E026E-E409-45B9-BA0F-4D533D202066}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Presentation", "src\Hospital\Hospital.Presentation\Hospital.Presentation.csproj", "{299E026E-E409-45B9-BA0F-4D533D202066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Application", "src\Hospital\Hospital.Application\Hospital.Application.csproj", "{926E9E49-E2D8-4D73-9C11-F27AE8A9CFE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Application", "src\Hospital\Hospital.Application\Hospital.Application.csproj", "{926E9E49-E2D8-4D73-9C11-F27AE8A9CFE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Domain", "src\Hospital\Hospital.Domain\Hospital.Domain.csproj", "{35608938-3C92-4198-983E-5E67AB66AA9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Domain", "src\Hospital\Hospital.Domain\Hospital.Domain.csproj", "{35608938-3C92-4198-983E-5E67AB66AA9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.Infrastructure", "src\Hospital\Hospital.Infrastructure\Hospital.Infrastructure.csproj", "{01A0597D-B5C0-4DA7-A455-42E4785C7674}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital.Infrastructure", "src\Hospital\Hospital.Infrastructure\Hospital.Infrastructure.csproj", "{01A0597D-B5C0-4DA7-A455-42E4785C7674}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GameClub", "GameClub", "{5317ADDE-9057-4D71-9267-94B418E286A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameClub.Domain", "src\GameClub\GameClub.Domain\GameClub.Domain.csproj", "{0AD87F27-C8B2-4C35-824E-0B1ECF7CCA9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameClub.Domain", "src\GameClub\GameClub.Domain\GameClub.Domain.csproj", "{0AD87F27-C8B2-4C35-824E-0B1ECF7CCA9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameClub.Application", "src\GameClub\GameClub.Application\GameClub.Application.csproj", "{118F5001-C6AD-45F2-98BA-9651BBB0E0B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameClub.Application", "src\GameClub\GameClub.Application\GameClub.Application.csproj", "{118F5001-C6AD-45F2-98BA-9651BBB0E0B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameClub.Infrastructure", "src\GameClub\GameClub.Infrastructure\GameClub.Infrastructure.csproj", "{2DD1F008-8E7D-4CFC-AC2B-8E9CA1D8B628}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameClub.Infrastructure", "src\GameClub\GameClub.Infrastructure\GameClub.Infrastructure.csproj", "{2DD1F008-8E7D-4CFC-AC2B-8E9CA1D8B628}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameClub.Presentation", "src\GameClub\GameClub.Presentation\GameClub.Presentation.csproj", "{93EF067A-07DA-4082-A382-C0E40B34FFB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameClub.Presentation", "src\GameClub\GameClub.Presentation\GameClub.Presentation.csproj", "{93EF067A-07DA-4082-A382-C0E40B34FFB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{97EF4921-7E06-46BF-94C6-0711DE9D6068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway.API", "src\Gateway\Gateway.API\Gateway.API.csproj", "{E1904E46-E5CE-4B0E-816B-E7D5F5190A57}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{754A1675-7332-4F5A-B79F-8803C4439D13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -115,6 +121,14 @@ Global
 		{93EF067A-07DA-4082-A382-C0E40B34FFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93EF067A-07DA-4082-A382-C0E40B34FFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93EF067A-07DA-4082-A382-C0E40B34FFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1904E46-E5CE-4B0E-816B-E7D5F5190A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1904E46-E5CE-4B0E-816B-E7D5F5190A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1904E46-E5CE-4B0E-816B-E7D5F5190A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1904E46-E5CE-4B0E-816B-E7D5F5190A57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{754A1675-7332-4F5A-B79F-8803C4439D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754A1675-7332-4F5A-B79F-8803C4439D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754A1675-7332-4F5A-B79F-8803C4439D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754A1675-7332-4F5A-B79F-8803C4439D13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -140,6 +154,8 @@ Global
 		{118F5001-C6AD-45F2-98BA-9651BBB0E0B0} = {5317ADDE-9057-4D71-9267-94B418E286A4}
 		{2DD1F008-8E7D-4CFC-AC2B-8E9CA1D8B628} = {5317ADDE-9057-4D71-9267-94B418E286A4}
 		{93EF067A-07DA-4082-A382-C0E40B34FFB1} = {5317ADDE-9057-4D71-9267-94B418E286A4}
+		{97EF4921-7E06-46BF-94C6-0711DE9D6068} = {E8BB8D03-1FE0-4CC1-82DC-0AB0DF0F40E2}
+		{E1904E46-E5CE-4B0E-816B-E7D5F5190A57} = {97EF4921-7E06-46BF-94C6-0711DE9D6068}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D07A9583-9A4F-490B-A2D7-45E3DCE19BCB}

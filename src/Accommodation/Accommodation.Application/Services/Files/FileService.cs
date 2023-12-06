@@ -2,24 +2,19 @@
 
 public class FileService : IFileService
 {
-
     private readonly string MEDIA = "media";
-    private readonly string AVATARS = "avatars";
     private readonly string IMAGES = "images";
+    private readonly string AVATARS = "avatars";
     private readonly string ROOTPATH;
+
     public FileService()
     {
-        ROOTPATH = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+        ROOTPATH = @"C:\\Users\\USER\\Desktop\\ExamProject\\microservice\\src\\Accommodation\\Accommodation.Presentation\\wwwroot";
     }
 
-    public async ValueTask<bool> DeleteAvatarAsync(string file)
+    public async ValueTask<bool> DeleteAvatarAsync(string subpath)
     {
-        return await DeleteImageAsync(file);
-    }
-
-    public async ValueTask<bool> DeleteImageAsync(string file)
-    {
-        string path = Path.Combine(ROOTPATH, file);
+        string path = Path.Combine(ROOTPATH, subpath);
         if (File.Exists(path))
         {
             await Task.Run(() =>
@@ -28,33 +23,46 @@ public class FileService : IFileService
             });
             return true;
         }
-        return false;
-
+        else return false;
     }
 
-    public async ValueTask<string> UploadAvatarAsync(IFormFile file)
+    public async ValueTask<bool> DeleteImageAsync(string subpath)
     {
-        string newAvatarName = MediaHelper.MakeImageName(file.FileName.ToLower());
-        string subPath = Path.Combine(MEDIA, AVATARS, newAvatarName);
-        string path = Path.Combine(ROOTPATH, subPath);
-
-        using (var stream = new FileStream(path, FileMode.Create))
+        string path = Path.Combine(ROOTPATH, subpath);
+        if (File.Exists(path))
         {
-            await file.CopyToAsync(stream);
-            return subPath;
+            await Task.Run(() =>
+            {
+                File.Delete(path);
+            });
+            return true;
         }
+        else return false;
     }
 
-    public async ValueTask<string> UploadImageAsync(IFormFile file)
+    public async ValueTask<string> UploadAvatarAsync(IFormFile avatar)
     {
-        string newImageName = MediaHelper.MakeImageName(file.FileName.ToLower());
-        string subPath = Path.Combine(MEDIA, IMAGES, newImageName);
-        string path = Path.Combine(ROOTPATH, subPath);
+        string newImageName = MediaHelper.MakeImageName(avatar.FileName);
+        string subpath = Path.Combine(MEDIA, AVATARS, newImageName);
+        string path = Path.Combine(ROOTPATH, subpath);
 
-        using (var stream = new FileStream(path, FileMode.Create))
-        {
-            await file.CopyToAsync(stream);
-            return subPath;
-        }
+        var stream = new FileStream(path, FileMode.Create);
+        await avatar.CopyToAsync(stream);
+        stream.Close();
+
+        return subpath;
+    }
+
+    public async ValueTask<string> UploadImageAsync(IFormFile image)
+    {
+        string newImageName = MediaHelper.MakeImageName(image.FileName);
+        string subpath = Path.Combine(MEDIA, IMAGES, newImageName);
+        string path = Path.Combine(ROOTPATH, subpath);
+
+        var stream = new FileStream(path, FileMode.Create);
+        await image.CopyToAsync(stream);
+        stream.Close();
+
+        return subpath;
     }
 }

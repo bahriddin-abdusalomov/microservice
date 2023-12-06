@@ -1,10 +1,4 @@
-﻿using Accommodation.Application.Abstractions;
-using Accommodation.Infrastructure.Persistence.Data;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace Accommodation.Infrastructure.DependencyInjections;
+﻿namespace Accommodation.Infrastructure.DependencyInjections;
 
 public static class DependencyInjection
 {

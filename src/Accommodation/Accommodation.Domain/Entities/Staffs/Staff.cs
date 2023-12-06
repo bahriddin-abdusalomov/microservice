@@ -1,7 +1,4 @@
-﻿using Accommodation.Domain.Entities.Hotels;
-using Accommodation.Domain.Enums.Positions;
-
-namespace Accommodation.Domain.Entities.Staffs;
+﻿namespace Accommodation.Domain.Entities.Staffs;
 
 public class Staff : BaseEntity
 {

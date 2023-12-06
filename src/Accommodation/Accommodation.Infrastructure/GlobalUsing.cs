@@ -1,0 +1,16 @@
+﻿global using Accommodation.Application.Abstractions;
+global using Accommodation.Domain.Entities.Bookings;
+global using Accommodation.Domain.Entities.Guests;
+global using Accommodation.Domain.Entities.Hotels;
+global using Accommodation.Domain.Entities.Rooms;
+global using Accommodation.Domain.Entities.Staffs;
+global using Accommodation.Infrastructure.Persistence.Data;
+global using Accommodation.Infrastructure.Persistence.Configurations.Bookings;
+global using Accommodation.Infrastructure.Persistence.Configurations.Guests;
+global using Accommodation.Infrastructure.Persistence.Configurations.Hotels;
+global using Accommodation.Infrastructure.Persistence.Configurations.Rooms;
+global using Accommodation.Infrastructure.Persistence.Configurations.Staffs;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;

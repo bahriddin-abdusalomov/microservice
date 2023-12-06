@@ -1,6 +1,4 @@
-﻿using Accommodation.Domain.Entities.Staffs;
-
-namespace Accommodation.Domain.Entities.Rooms;
+﻿namespace Accommodation.Domain.Entities.Rooms;
 
 public class RoomType : BaseEntity  
 {

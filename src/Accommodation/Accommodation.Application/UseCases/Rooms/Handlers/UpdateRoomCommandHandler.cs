@@ -1,6 +1,5 @@
 ﻿namespace Accommodation.Application.UseCases.Rooms.Handlers;
 
-
 public class UpdateRoomCommandHandler : IRequestHandler<UpdateRoomCommand, int>
 {
     private readonly IApplicationDbContext _context;
@@ -20,7 +19,6 @@ public class UpdateRoomCommandHandler : IRequestHandler<UpdateRoomCommand, int>
         room.Status = request.Status;
         room.RoomTypeId = request.RoomTypeId;
         room.HotelId = request.HotelId;
-        room.CreatedDate = DateTime.UtcNow;
         room.UpdatedDate = DateTime.UtcNow;
 
         _context.Rooms.Update(room);

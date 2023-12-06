@@ -1,9 +1,4 @@
-﻿using Accommodation.Application.UseCases.Hotels.Commands;
-using Accommodation.Application.UseCases.Hotels.Queries;
-using MediatR;
-using Microsoft.AspNetCore.Mvc;
-
-namespace Accommodation.Presentation.Controllers;
+﻿namespace Accommodation.Presentation.Controllers;
 
 [Route("api/[controller]/[action]")]
 [ApiController]

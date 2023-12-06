@@ -1,8 +1,4 @@
-﻿using Accommodation.Domain.Entities.Bookings;
-using Accommodation.Domain.Entities.Hotels;
-using Accommodation.Domain.Enums.Status;
-
-namespace Accommodation.Domain.Entities.Rooms;
+﻿namespace Accommodation.Domain.Entities.Rooms;
 
 public class Room : BaseEntity
 {

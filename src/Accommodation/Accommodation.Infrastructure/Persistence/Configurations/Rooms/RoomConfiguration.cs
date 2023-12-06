@@ -1,9 +1,4 @@
-﻿using Accommodation.Domain.Entities.Bookings;
-using Accommodation.Domain.Entities.Rooms;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-
-namespace Accommodation.Infrastructure.Persistence.Configurations.Rooms;
+﻿namespace Accommodation.Infrastructure.Persistence.Configurations.Rooms;
 
 public class RoomConfiguration : IEntityTypeConfiguration<Room>
 {

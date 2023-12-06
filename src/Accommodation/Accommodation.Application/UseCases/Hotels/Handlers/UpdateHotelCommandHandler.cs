@@ -13,7 +13,7 @@ public class UpdateHotelCommandHandler : IRequestHandler<UpdateHotelCommand, int
 
     public async Task<int> Handle(UpdateHotelCommand request, CancellationToken cancellationToken)
     {
-        Hotel hotel = await _context.Hotels.FirstOrDefaultAsync(hotel => hotel.Id == request.HotelId);
+        Hotel? hotel = await _context.Hotels.FirstOrDefaultAsync(hotel => hotel.Id == request.HotelId);
         if (hotel == null) throw new HotelNotFoundException();
 
         if(hotel.ImagePath is not null)

@@ -1,10 +1,4 @@
-﻿using Accommodation.Application.UseCases.Rooms.Commands;
-using Accommodation.Application.UseCases.Rooms.Queries;
-using MediatR;
-
-using Microsoft.AspNetCore.Mvc;
-
-namespace Accommodation.Presentation.Controllers;
+﻿namespace Accommodation.Presentation.Controllers;
 
 [Route("api/[controller]/[action]")]
 [ApiController]

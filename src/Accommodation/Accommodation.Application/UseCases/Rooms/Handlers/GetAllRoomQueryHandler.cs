@@ -1,4 +1,5 @@
 ﻿namespace Accommodation.Application.UseCases.Rooms.Handlers;
+
 public class GetAllRoomQueryHandler : IRequestHandler<GetAllRoomQuery, List<Room>>
 {
     private readonly IApplicationDbContext _context;

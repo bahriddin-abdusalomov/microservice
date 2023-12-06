@@ -1,7 +1,4 @@
-﻿using Accommodation.Domain.Entities.Rooms;
-using Accommodation.Domain.Entities.Staffs;
-
-namespace Accommodation.Domain.Entities.Hotels;
+﻿namespace Accommodation.Domain.Entities.Hotels;
 
 public class Hotel : BaseEntity
 {

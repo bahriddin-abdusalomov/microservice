@@ -1,8 +1,4 @@
-﻿using Accommodation.Domain.Entities.Guests;
-using Accommodation.Domain.Entities.Rooms;
-using Accommodation.Domain.Entities.Staffs;
-
-namespace Accommodation.Domain.Entities.Bookings;
+﻿namespace Accommodation.Domain.Entities.Bookings;
 
 public class Booking : BaseEntity
 {
