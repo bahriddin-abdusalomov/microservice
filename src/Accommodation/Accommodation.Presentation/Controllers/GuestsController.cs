@@ -1,4 +1,7 @@
-﻿namespace Accommodation.Presentation.Controllers;
+﻿using Accommodation.Application.UseCases.Guests.Commands;
+using Accommodation.Application.UseCases.Guests.Queries;
+
+namespace Accommodation.Presentation.Controllers;
 
 [Route("api/[controller]/[action]")]
 [ApiController]

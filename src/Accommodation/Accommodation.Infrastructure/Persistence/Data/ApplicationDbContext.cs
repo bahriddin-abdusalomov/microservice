@@ -5,6 +5,7 @@ public class ApplicationDbContext : DbContext, IApplicationDbContext
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
     {
+        Database.Migrate(); 
     }
 
     public DbSet<Hotel> Hotels { get; set; }

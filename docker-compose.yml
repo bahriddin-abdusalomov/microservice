@@ -1,9 +1,24 @@
 version: '3.4'
 
 services:
+  sqldata:
+    image:  mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+    - SA_PASSWORD=bahriddin#2022
+    - ACCEPT_EULA=Y
+    ports:
+    - 8080:80
+
   accommodation.presentation:
     image: ${DOCKER_REGISTRY-}accommodationpresentation
     build:
       context: .
       dockerfile: src/Accommodation/Accommodation.Presentation/Dockerfile
+
+
+  hospital.presentation:
+    image: ${DOCKER_REGISTRY-}hospitalpresentation
+    build:
+      context: .
+      dockerfile: src/Hospital/Hospital.Presentation/Dockerfile
 
